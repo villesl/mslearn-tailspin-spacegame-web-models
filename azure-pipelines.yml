@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'sad'
+    publishVstsFeed: 'projectscopedfeednotworking'
     allowPackageConflicts: true
   condition: succeeded()
